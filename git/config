@@ -1,7 +1,7 @@
 [core]
-	autocrlf = false
+    autocrlf = false
     symlinks = true
 [pull]
-	rebase = false
+    rebase = false
 [include]
     path = config.local
