@@ -1,7 +1,9 @@
 [core]
-    autocrlf = false
-    symlinks = true
+	autocrlf = false
+	symlinks = true
 [pull]
-    rebase = false
+	ff = only
+[merge]
+	ff = false
 [include]
-    path = config.local
+	path = config.local
