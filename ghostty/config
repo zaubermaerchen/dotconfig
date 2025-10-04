@@ -1,0 +1,16 @@
+shell-integration = zsh
+shell-integration-features = no-cursor
+theme = Iceberg Dark
+cursor-style = block
+cursor-style-blink = true
+background-opacity = 0.85
+font-family = Moralerspace Argon Regular
+font-size = 12
+font-feature = -calt
+font-feature = -liga
+font-feature = -dlig
+window-width = 100
+window-height = 30
+window-padding-x = 6
+window-padding-y = 4
+window-inherit-working-directory = false
