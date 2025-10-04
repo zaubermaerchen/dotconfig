@@ -1,3 +1,6 @@
+[user]
+    name = zaubermaerchen
+    email = 9396256+zaubermaerchen@users.noreply.github.com
 [core]
 	autocrlf = false
 	symlinks = true
