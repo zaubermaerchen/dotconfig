@@ -1,6 +1,6 @@
 path=(
     $HOME/bin
-	$path
+    $path
 )
 typeset -gU path
 
