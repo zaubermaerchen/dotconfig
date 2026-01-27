@@ -1,3 +1,4 @@
 *.local
 
 configstore/
+.copilot/logs/
