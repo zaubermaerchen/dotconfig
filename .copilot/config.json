@@ -1,7 +1,7 @@
 {
   "banner": "never",
-  "model": "gpt-5.2-codex",
-  "reasoning_effort": "high",
+  "model": "gpt-5.3-codex",
+  "reasoning_effort": "medium",
   "render_markdown": true,
   "theme": "auto"
 }
