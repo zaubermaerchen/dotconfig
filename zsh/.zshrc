@@ -12,9 +12,9 @@ autoload -Uz compinit
 compinit
 
 [ -f "$HOMEBREW_PREFIX/bin/brew" ] && eval "$($HOMEBREW_PREFIX/bin/brew shellenv)"
-eval "$(sheldon source)"
-eval "$(starship init zsh)"
-eval "$(mise activate zsh)"
+type sheldon &> /dev/null && eval "$(sheldon source)"
+type starship &> /dev/null && eval "$(starship init zsh)"
+type mise &> /dev/null && eval "$(mise activate zsh)"
 
 function sk-select-history() {
     BUFFER=$(history -n -r 1 | sk --query "$LBUFFER")
