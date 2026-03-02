@@ -17,4 +17,4 @@ window-inherit-working-directory = false
 macos-titlebar-style = tabs
 macos-option-as-alt = left
 unfocused-split-opacity = 0.6
-keybind = ¥=text:\\
+keybind = alt+¥=text:\\
