@@ -14,6 +14,7 @@ compinit
 [ -f "$HOMEBREW_PREFIX/bin/brew" ] && eval "$($HOMEBREW_PREFIX/bin/brew shellenv)"
 type sheldon &> /dev/null && eval "$(sheldon source)"
 type starship &> /dev/null && eval "$(starship init zsh)"
+type zoxide &> /dev/null && eval "$(zoxide init zsh)"
 type mise &> /dev/null && eval "$(mise activate zsh)"
 
 function sk-select-history() {
