@@ -1,4 +1,6 @@
 *.local
 
+cagent/
 configstore/
+.copilot/config.json
 .copilot/logs/
